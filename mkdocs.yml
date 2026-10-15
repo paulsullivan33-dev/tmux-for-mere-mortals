@@ -1,0 +1,21 @@
+site_name: tmux for Mere Mortals
+site_description: Plain-language tmux — terminal sessions that survive disconnects, windows, panes, and scripting.
+site_url: https://paulsullivan33-dev.github.io/tmux-for-mere-mortals/
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What Is tmux?: what-is-tmux.md
+  - Your First Session: your-first-session.md
+  - Windows and Panes: windows-and-panes.md
+  - The Prefix Key: the-prefix-key.md
+  - Configuring tmux: configuring-tmux.md
+  - Scripting tmux: scripting-tmux.md
+  - tmux Over SSH: tmux-and-ssh.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md
